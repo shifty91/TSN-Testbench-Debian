@@ -1,0 +1,31 @@
+Source: tsn-testbench
+Section: devel
+Priority: optional
+Maintainer: Kurt Kanzenbach <kurt.kanzenbach@linutronix.de>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+ cmake,
+ libxdp-dev,
+ libbpf-dev,
+ libyaml-dev,
+ libmosquitto-dev,
+ libssl-dev,
+ libc6-dev (>= 2.31),
+ pkg-config,
+ llvm,
+ clang,
+ sphinx,
+ python3-sphinx-rtd-theme
+Standards-Version: 4.6.2
+Homepage: https://www.linutronix.de
+#Vcs-Browser: https://www.github.com/shifty91/TSN-Testbench-Debian
+#Vcs-Git: https://www.github.com/shifty91/TSN-Testbench-Debian.git
+
+Package: tsn-testbench
+Architecture: any
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description: Time-Sensitive Networks Testbench is a set of
+ tools for validating the networks with different protocols

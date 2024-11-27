@@ -1,0 +1,5 @@
+tsn-testbench (5.1-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #nnnn)
+
+ -- Kurt Kanzenbach <kurt.kanzenbach@linutronix.de>  Wed, 27 Nov 2024 14:56:52 +0100
