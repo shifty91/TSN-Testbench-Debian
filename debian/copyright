@@ -1,12 +1,12 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: tsn-testbench
+Upstream-Name: rtc-testbench
 
 Files:
  *
 Copyright:
  2020-2024 Linutronix GmbH
 License: BSD-2
- Copyright (c) 2020-2024 Linutronix GmbH. All rights reserved.
+ Copyright (c) 2020-2025 Linutronix GmbH. All rights reserved.
  .
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions are met:

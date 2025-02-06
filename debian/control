@@ -1,4 +1,4 @@
-Source: tsn-testbench
+Source: rtc-testbench
 Section: devel
 Priority: optional
 Maintainer: Kurt Kanzenbach <kurt.kanzenbach@linutronix.de>
@@ -19,10 +19,10 @@ Build-Depends:
  python3-sphinx-rtd-theme
 Standards-Version: 4.6.2
 Homepage: https://www.linutronix.de
-#Vcs-Browser: https://www.github.com/shifty91/TSN-Testbench-Debian
-#Vcs-Git: https://www.github.com/shifty91/TSN-Testbench-Debian.git
+#Vcs-Browser: https://www.github.com/shifty91/RTC-Testbench-Debian
+#Vcs-Git: https://www.github.com/shifty91/RTC-Testbench-Debian.git
 
-Package: tsn-testbench
+Package: rtc-testbench
 Architecture: any
 Depends:
  ${shlibs:Depends},
